@@ -39,16 +39,4 @@
       </extension>
     </extensions>
   </build>
-<!--      <repositories>
-        <repository>
-          <id>dtg-repository</id>
-          <url>scp://maven.dtg.cl.cam.ac.uk/srv/nexus/sonatype-work/nexus/storage/public/</url>
-          <releases>
-            <enabled>true</enabled>
-          </releases>
-          <snapshots>
-            <enabled>true</enabled>
-          </snapshots>
-        </repository>
-      </repositories>-->
 </project>
