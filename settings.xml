@@ -1,0 +1,29 @@
+<settings>
+  <mirrors>
+    <mirror>
+      <id>nexus</id>
+      <mirrorOf>*</mirrorOf>
+      <url>sftp://maven@maven.dtg.cl.cam.ac.uk/mirror/</url>
+    </mirror>
+  </mirrors>
+  <profiles>
+    <profile>
+      <id>repositories</id>
+      <activation>
+        <activeByDefault/>
+      </activation>
+      <repositories>
+        <repository>
+          <id>dtg-repository</id>
+          <url>sftp://maven@maven.dtg.cl.cam.ac.uk/mirror/</url>
+          <releases>
+            <enabled>true</enabled>
+          </releases>
+          <snapshots>
+            <enabled>true</enabled>
+          </snapshots>
+        </repository>
+      </repositories>
+    </profile>
+  </profiles>
+</settings>
