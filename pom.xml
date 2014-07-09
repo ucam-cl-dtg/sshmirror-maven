@@ -26,8 +26,7 @@
     <dependency>
       <groupId>uk.ac.cam.ucs</groupId>
       <artifactId>webauth</artifactId>
-      <version>0.7.1-SNAPSHOT</version>
-      <scope>runtime</scope>
+      <version>0.7.1</version>
     </dependency>
   </dependencies>
   <build>
