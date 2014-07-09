@@ -1,17 +1,15 @@
 <settings>
-  <mirrors>
+<!-- uncomment the following once you have enough stuff locally cached to avoid boostrapping issues -->
+<!--  <mirrors>
     <mirror>
       <id>nexus</id>
       <mirrorOf>*</mirrorOf>
       <url>sftp://maven@maven.dtg.cl.cam.ac.uk/mirror/</url>
     </mirror>
-  </mirrors>
+  </mirrors>-->
   <profiles>
     <profile>
       <id>repositories</id>
-      <activation>
-        <activeByDefault/>
-      </activation>
       <repositories>
         <repository>
           <id>dtg-repository</id>
@@ -26,4 +24,7 @@
       </repositories>
     </profile>
   </profiles>
+  <activeProfiles>
+    <activeProfile>repositories</activeProfile>
+  </activeProfiles>
 </settings>
